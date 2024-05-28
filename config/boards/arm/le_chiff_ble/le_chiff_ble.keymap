@@ -271,7 +271,7 @@
        BASE_LAYER {
           bindings = <
 &kp Q           &kp F        &kp C         &kp K               &kp X                        &kp APOS  &kp W               &kp O         &kp U        &kp Z
-&hm_gui LGUI R  &gqt LALT S  &gqt LCTRL T  &hm_shift LSHIFT H  &kp D     &kp SPC            &kp V      &hm_shift LSHIFT N  &gqt LCTRL A  &gqt LALT I  &hm_gui LGUI L 
+&hm_gui LGUI R  &gqt LALT S  &gqt LCTRL T  &hm_shift LSHIFT H  &kp D                &kp V      &hm_shift LSHIFT N  &gqt LCTRL A  &gqt LALT I  &hm_gui LGUI L 
 &none           &kp B      &kp G         &kp P               &kp COMMA                      &kp Y      &kp M               &kp DOT       &kp J    &kp SEMI
                                       &morph_tab  &lt NAV_LAYER SPACE                       &lt NUM_UML_LAYER E  &kp LC(BSPC)
                   >;
@@ -281,7 +281,7 @@
        NAV_LAYER {
           bindings = <
   &none  &none  &none  &none  &none               &none    &none     &none   &none      &none
-  &none  &none  &none  &none  &none   &kp SPC     &kp LEFT &kp DOWN  &kp UP  &kp RIGHT  &none
+  &none  &none  &none  &none  &none        &kp LEFT &kp DOWN  &kp UP  &kp RIGHT  &none
   &none  &none  &none  &none  &none               &none    &none     &none   &none      &none
                         &none &none                &none  &kp LSHFT
                         >;
@@ -298,7 +298,7 @@
        NUM_UML_LAYER {
           bindings = <
   &kp STAR  &kp N9  &kp N8  &kp N7  &kp PIPE2          &none  &none  &kp RA(P)  &kp RA(Y)  &none
-  &kp AMPS  &kp N3  &kp N2  &kp N1  &kp PLUS   &kp SPC     &none  &none  &kp RA(Q)  &none     &kp RA(S)
+  &kp AMPS  &kp N3  &kp N2  &kp N1  &kp PLUS        &none  &none  &kp RA(Q)  &none     &kp RA(S)
   &kp DOLLAR &kp N6  &kp N5  &kp N4  &kp MINUS          &none  &none  &none     &none      &none
                &kp UNDER &kp N0          &none &none
                         >;
@@ -307,7 +307,7 @@
        BLE_LAYER {
           bindings = <
   &none        &none         &none         &bt BT_CLR     &none                 &none &none &none &none &none
-  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1   &bt BT_SEL 0     &kp SPC       &none &none &none &none &none
+  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1   &bt BT_SEL 0          &none &none &none &none &none
   &bootloader   &none         &none         &out OUT_USB   &none                 &none &none &none &none &none
                                               &none &none                        &none &none
                         >;
