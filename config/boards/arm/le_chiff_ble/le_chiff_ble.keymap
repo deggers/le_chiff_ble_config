@@ -129,13 +129,13 @@
         };
 
         combo_tab {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             key-positions = <11 12>;
             bindings = <&kp TAB>;
         };
 	
 	combo_esc {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             key-positions = <12 13>;
             bindings = <&kp ESC>;
         };
@@ -159,7 +159,7 @@
         };
 
         combo_backspace {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
             key-positions = <17 18>;
             bindings = <&kp BSPC>;
         };
@@ -281,7 +281,7 @@
        NAV_LAYER {
           bindings = <
   &none  &none  &none  &none  &none               &none    &none     &none   &none      &none
-  &none  &none  &none  &none  &none        &; LEFT &kp DOWN  &kp UP  &kp RIGHT  &none
+  &none  &none  &none  &none  &none               &kp LEFT &kp DOWN  &kp UP  &kp RIGHT  &none
   &none  &none  &none  &none  &none               &none    &none     &none   &none      &none
                         &none &none                &none  &kp LSHFT
                         >;
